@@ -1,28 +1,28 @@
 {
-  "name": "@alura/web-public",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint './**/*.{js,jsx,ts,tsx}'"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@alura/design-system": "*",
-    "@alura/utils": "*",
-    "next": "^15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@alura/tsconfig-commons": "*",
-    "@alura/eslint-commons": "*",
-    "next-compose-plugins": "^2.2.1",
-    "next-transpile-modules": "^10.0.1"
-  }
+    "name": "@alura/web-public",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint \"./**/*.{ts,tsx}\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@alura/design-system": "*",
+        "@alura/utils": "*",
+        "next": "^15.1.6",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@alura/tsconfig-commons": "*",
+        "@alura/eslint-commons": "*",
+        "next-compose-plugins": "2.2.1",
+        "next-transpile-modules": "9.0.0"
+    }
 }

@@ -6,10 +6,14 @@
     "author": "",
     "license": "ISC",
     "description": "",
+    "scripts": {
+        "lint": "eslint \"./**/*.{ts,tsx}\""
+    },
     "dependencies": {
         "styled-components": "^6.1.15"
     },
     "devDependencies": {
+        "@alura/eslint-commons": "*",
         "@alura/tsconfig-commons": "*"
     }
 }

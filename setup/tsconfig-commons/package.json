@@ -4,5 +4,8 @@
     "main": "index.js",
     "files": [
         "base.json"
-    ]
+    ],
+    "scripts": {
+        "lint": "echo 'Not implemented'"
+    }
 }
